@@ -8,5 +8,6 @@
 - `privacy.html`: プライバシーポリシー
 - `support.html`: よくある質問とGitHub Issuesへの案内
 - `styles.css`: 共通スタイル
+- `store/`: 掲載文・App Privacy・スクリーンショットの下書きと合成スクリプト。作者確認前の案は採用済みの仕様ではありません。
 
 GitHub Pagesはmainブランチのルートから配信します。ビルド・外部スクリプト・アクセス解析は使いません。発売時にはトップページの公開状況とApp Storeへの案内を更新します。
