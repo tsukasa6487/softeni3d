@@ -17,7 +17,7 @@
 |05 戦術を残して、渡せる|保存一覧|クロスの展開を含む自作の3件、個人名なし。「…」の書き出しを含むメニューを開く。OSの共有先一覧は写さない|
 
 合成: [compose-store-screenshot.ps1](./compose-store-screenshot.ps1)。
-1320×2868の縦キャンバスに見出しと枠を配置し、素材は縦横比を保って収め、切り取らない。横素材も縦キャンバス内にそのまま収める。
-6.9インチ枠の対応寸法は [Appleの仕様](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) を提出時にも確認する。
+必須枠用の1179×2556（Dynamic Island・medium）を既定にし、見出しと枠を配置する。`-Display large` なら追加の1320×2868も作る。どちらもRGB・透過なし。素材は縦横比を保って収め、切り取らない。横素材も縦キャンバス内にそのまま収める。
+Appleの2026-10-25の案内ではDynamic Island・mediumが必須。largeだけで完了とせず、最終アップロード時も必要枠をASC画面で照合する。対応寸法は [Appleの仕様](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) を提出時にも確認する。
 スクリーンショットの見た目を別機種の実機動作確認として扱わない。
-実機の購入画面（設定または無料上限）も審査用の予備素材として撮影し、既存のWeb画像を置き換える場合は課金商品の審査用画像へ使う。
+実機の購入画面（設定または無料上限）も加工なしで撮影し、課金商品の審査用画像を現在のWeb画像からRCの実機画像へ置き換える。Appleアカウントや個人情報は写さない。
